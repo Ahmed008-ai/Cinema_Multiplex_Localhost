@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+cinema_backend.dll
+libcinema_backend.so
+movies.txt
+shows.txt
+seats.txt
+customers.txt
+bookings.txt
+waitlist.txt

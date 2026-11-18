@@ -1,0 +1,31 @@
+CINE - CINEMA MULTIPLEX MANAGEMENT STUDIO
+=========================================
+
+START THE WEBSITE:
+1. Extract this ZIP.
+2. Open the Cinema_Multiplex_Localhost folder.
+3. Double-click start_localhost.bat.
+4. Wait for the browser to open at http://127.0.0.1:8765.
+5. Keep the black terminal window open while using the website.
+6. To stop safely, click the terminal and press Ctrl+C.
+
+REQUIREMENTS:
+- Python 3.8+
+- GCC (the launcher searches common Dev-C++ 6.x TDM-GCC folders)
+- Chrome, Edge or another modern browser
+
+No Node.js, npm, Flask, pip packages, or VS Code are needed.
+
+IMPORTANT:
+- This is a localhost website, not a public internet website.
+- Your existing C modules are in the backend folder.
+- The HTML/CSS/JavaScript frontend is in the web folder.
+- The C backend owns bookings, pricing, seats, refunds and waitlists.
+- Data is saved as movies.txt, shows.txt, seats.txt, customers.txt,
+  bookings.txt and waitlist.txt in this project folder.
+- Back up the text data files before moving or replacing the project.
+
+If Python is missing, install it from https://www.python.org/downloads/
+and tick "Add Python to PATH" during installation.
+
+Read README.md for detailed instructions and test commands.
